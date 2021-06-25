@@ -8,9 +8,11 @@ const presets = [
         chrome: "73",
         safari: "12",
         ie: "11"
-      }
+      },
+      modules: "umd",
     },
   ],
+  "minify",
 ];
 
 module.exports = {presets};

@@ -1,11 +1,13 @@
 {
-  "name": "assert",
-  "version": "2.0.0",
+  "name": "umd-assert",
+  "version": "2.0.2",
   "description": "The assert module from Node.js, for the browser.",
   "main": "build/assert.js",
+  "types": "index.d.ts",
   "files": [
     "build/assert.js",
-    "build/internal"
+    "build/internal",
+    "index.d.ts"
   ],
   "license": "MIT",
   "homepage": "https://github.com/browserify/commonjs-assert",
@@ -22,7 +24,8 @@
   },
   "keywords": [
     "assert",
-    "browser"
+    "browser",
+    "umd"
   ],
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -30,6 +33,7 @@
     "@babel/preset-env": "^7.4.4",
     "airtap": "^2.0.2",
     "array-fill": "^1.2.0",
+    "babel-preset-minify": "^0.5.1",
     "core-js": "^3.0.1",
     "cross-env": "^5.2.0",
     "object.entries": "^1.1.0",
